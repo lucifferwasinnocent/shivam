@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Explorer: Journey Through Artificial Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AI Explorer</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#types">Types of AI</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#future">Future of AI</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Explore the Future of AI</h1>
+            <p>Embark on an extraordinary journey to unlock the potential of Artificial Intelligence, shaping the future in unimaginable ways.</p>
+            <a href="#history" class="cta-button">Get Started</a>
+        </section>
+
+        <section id="history" class="content-section">
+            <h2>The Origins of AI</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>1950s</h3>
+                        <p>AI emerges as a concept, with computer scientists like John McCarthy coining the term "Artificial Intelligence."</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>1970s</h3>
+                        <p>The first expert systems are created, laying the groundwork for intelligent systems designed for specific problem-solving.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2000s</h3>
+                        <p>AI enters the mainstream with advancements in machine learning, natural language processing, and robotics.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2010s</h3>
+                        <p>Deep learning breakthroughs enable AI to achieve state-of-the-art results in various fields, such as image and speech recognition.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2020s</h3>
+                        <p>AI becomes integral in everyday applications, including self-driving cars, personalized recommendations, and healthcare diagnostics, while ethical discussions around AI and its implications gain prominence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="types" class="content-section">
+            <h2>Types of AI</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Narrow AI</h3>
+                    <p>Focused on specific tasks like facial recognition, recommendation systems, or natural language processing.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-astronaut"></i>
+                    <h3>General AI</h3>
+                    <p>Aims to mimic human-level intelligence, capable of performing any cognitive task that a human can do.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Super AI</h3>
+                    <p>An advanced form of AI that surpasses human intelligence, potentially leading to revolutionary advancements.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3>Reactive Machines</h3>
+                    <p>These AI systems operate based on the present input without any memory or data from past experiences.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Limited Memory</h3>
+                    <p>These AI systems can use past experiences to inform future decisions, such as self-driving cars using historical data.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Self-aware AI</h3>
+                    <p>A theoretical form of AI that possesses self-awareness and consciousness, capable of understanding its own existence.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="applications" class="content-section">
+            <h2>Applications of AI</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Healthcare</h3>
+                    <p>AI enhances diagnostics, precision medicine, and patient care through machine learning and data analytics.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Finance</h3>
+                    <p>From fraud detection to algorithmic trading, AI revolutionizes how financial services operate globally.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-car"></i>
+                    <h3>Autonomous Vehicles</h3>
+                    <p>AI powers self-driving cars, improving safety, efficiency, and transforming transportation systems worldwide.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-school"></i>
+                    <h3>Education</h3>
+                    <p>AI personalizes learning experiences and automates administrative tasks, enhancing educational outcomes for students.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Retail</h3>
+                    <p>AI optimizes inventory management, improves customer service, and personalizes shopping experiences through data analysis.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Manufacturing</h3>
+                    <p>AI streamlines production processes, predicts maintenance needs, and enhances quality control in manufacturing industries.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-film"></i>
+                    <h3>Entertainment</h3>
+                    <p>AI is used in content creation, recommendations, and gaming, transforming how we consume media and engage with entertainment.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing</h3>
+                    <p>AI analyzes consumer behavior, automates campaigns, and enhances targeting, maximizing the effectiveness of marketing strategies.</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Human Resources</h3>
+                    <p>AI streamlines recruitment processes, enhances employee engagement, and analyzes workforce data to improve organizational efficiency.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="future" class="content-section">
+            <h2>The Future of AI</h2>
+            <div class="future-content">
+                <p>The future of AI holds limitless possibilities—autonomous machines, enhanced decision-making systems, and the rise of AGI (Artificial General Intelligence). As AI continues to evolve, it will shape the course of industries, redefine jobs, and push the boundaries of what's possible.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AI Explorer. Pioneering the Future of Intelligence.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
